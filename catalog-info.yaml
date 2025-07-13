@@ -1,7 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: MCD Level 2 Udemy Course
+  name: mcd-level2-udemy-course
+  title: MCD Level 2 Udemy Course
+  tags:
+    - udemy
+    - mulesoft
+    - course
   description: This repo is part of **Udemy** online course to _Learn concepts and practice for the MCD - Level 2 exam with hands-on exercises and practice tests_
   annotations:
     github.com/project-slug: 'brunosouzas/mcd-level2-udemy-course'
