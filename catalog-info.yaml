@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: MCD Level 2 Udemy Course
+  description: This repo is part of **Udemy** online course to _Learn concepts and practice for the MCD - Level 2 exam with hands-on exercises and practice tests_
+  annotations:
+    github.com/project-slug: 'brunosouzas/mcd-level2-udemy-course'
+    backstage.io/techdocs-ref: dir:./techDocs
+spec:
+  type: test
+  lifecycle: development
+  owner: administrators
